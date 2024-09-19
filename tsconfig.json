@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "declaration": true,
+    "declarationDir": "./dist",  // Where .d.ts files should go
+    "outDir": "./dist",  // Where compiled JavaScript should go
+    "moduleResolution": "Node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*", "<rootDir>/setupTests.ts"],
+  "exclude": ["node_modules", "dist"]
+}
